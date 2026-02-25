@@ -1,29 +1,58 @@
-# Bienvenue dans ce grand cours : 20 projets JavaScript 🎉
+# 20 projets JavaScript — Collection d'exercices pratiques 🎉
 
-Il est normal de se sentir **intimidé** par la **longueur** de ce cours, mais pas de panique ! Voici quelques **conseils** pour en tirer le maximum de bénéfices :
+Bienvenue — cette collection contient 20 petits projets JavaScript conçus pour apprendre en pratiquant. Chaque projet est autonome et vise à renforcer des compétences concrètes : manipulation du DOM, gestion d'événements, appels API, animations, logique de jeu, accessibilité, et plus.
 
-1. Si vous avez un niveau **débutant** ou **intermédiaire**, il est probable que vous **n'arriviez pas à résoudre tous les problèmes seul**. Mais la chose la plus importante est de **tenter** de les résoudre, de **réfléchir** à ces problèmes, **d’essayer plusieurs solutions**, de **lire de la documentation**, **d’utiliser des IA pour discuter et comparer différentes approches**, etc.
-C'est ça qui vous **apportera le plus d'experience**, et de très loin.
+**Comment utiliser ce dépôt**
+- Ouvrir un projet : naviguez dans le dossier du projet (par ex. [7.Slider](7.Slider)) et ouvrez `index.html` dans votre navigateur.
+- Structure commune d'un projet :
+	- `index.html` — page principale
+	- `script.js` — logique JavaScript
+	- `style.css` — styles
+	- `consignes/` — énoncé et instructions
+- Pour servir localement (utile pour fetch/API) :
+```powershell
+npx http-server
+# ou
+python -m http.server 8000
+```
 
-2. **Réfléchissez** avant chaque début de projet et avant chaque bloc logique à résoudre. Essayez de **construire un ou plusieurs raisonnements logiques** avant même de taper la première ligne de code. En développement, la **réflexion** prend beaucoup plus de temps que l’écriture du code, qui n’en est que la concrétisation.
+**Liste des projets**
+- 1.Application-pret-bancaire — simulateur de prêt
+- 2.Application-meteo — affichage météo via API
+- 3.Quizz — quiz interactif
+- 4.WikiApp — mini-app de recherche d'articles
+- 5.Cookies — gestion simple des cookies
+- 6.Generateur-de-degrades — création de dégradés CSS
+- 7.Slider — carrousel d'images
+- 8.Validation-formulaire — validation côté client
+- 9.Jeu-des-cartes-memoires — jeu de mémorisation
+- 10.Scroll-infini — chargement infini de contenu
+- 11.Pomodoro — minuteur Pomodoro
+- 12.Generateur-de-mot-de-passe — générateur de mots de passe
+- 13.Liste-filtrable — recherche et filtrage dynamique
+- 14.Lecteur-video — lecteur vidéo personnalisé
+- 15.Jeu-du-morpion — tic-tac-toe
+- 16.Particules — animations de particules
+- 17.Animations — collection d'animations CSS/JS
+- 18.TypingGame — jeu de dactylographie
+- 19.Lecteur-audio — lecteur audio
+- 20.Calculatrice — calculatrice basique
 
-3. Chaque dossier de projet est composé de trois sous-dossiers :
-Un dossier **"1.Essai"** dans lequel vous allez tenter de résoudre le problème en suivant les consignes qui s’y trouvent.
-Un dossier **"2.Résolution"** vous permettant de coder avec moi en suivant les vidéos du cours.
-Un dossier **"3.Code-source"**, contenant le code source final du projet, afin de vous aider si besoin.
+**Conseils pédagogiques**
+- Essayez d'abord de résoudre seul(e) : la réflexion, les essais et l'erreur sont les meilleurs enseignants.
+- Écrivez des petits commits fréquents ; utilisez des branches pour expérimenter.
+- Priorisez la lisibilité et la maintenabilité plutôt que les optimisations prématurées.
+- Pensez à l'accessibilité (contraste, navigation clavier, lecteurs d'écran) quand c'est pertinent.
 
-4. Il n’y a jamais **une seule bonne réponse à un problème informatique** un tant soit peu complexe. Si votre solution est différente de la mienne, cela ne signifie pas forcément qu’elle est moins bonne.
-Essayez simplement de respecter au mieux les critères suivants :
-- Performance
-- Maintenabilité
-- Simplicité et clarté du code
-- Flexibilité
-- Compatibilité
-- Accessibilité
+**Ressources & aide**
+- Documentation JavaScript : MDN Web Docs
+- Recherche web, tutoriels et outils (Playground, repl.it, etc.)
+- Communauté : [Discord de la communauté](https://discord.gg/XFP75gW)
 
-5. Je suis disponible sur le [Discord de la communauté](https://discord.gg/XFP75gW) si vous avez des **questions**. Essayez néanmoins de faire vos **propres recherches en premier**(web, IA, etc.) : c’est **beaucoup plus formateur pour vous.**
-6. **Bon courage ! 💪**
- 
-<br>
+**Licence & redistribution**
+Ce matériel est fourni pour un usage pédagogique personnel. La rediffusion ou distribution non autorisée est interdite.
 
-⚠️ La rediffusion de ce cours est **strictement interdite.**
+**Auteurs & contact**
+Créé par l'auteur du cours. Pour questions, retours ou contributions, utilisez le Discord ci‑dessus.
+
+Bon apprentissage et bon codage ! 💪
